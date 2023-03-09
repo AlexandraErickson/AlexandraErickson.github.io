@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Sans+Pro&display=swap');
 #content{
 max-width: 1600px;
 margin: 0 auto;
@@ -8,11 +9,20 @@ margin: 0 auto;
 #hero-img{
     width: 100%;
 }
+#logo_link{
+    padding-top: 5px;
+}
+.msg{
+    line-height: 1.5em;
+    padding: 35px;
+}
 .msg h2{
     color: #33658a;
 }
 .msg p{
     color: #33658a;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .button-box{
     text-align: center;
@@ -20,11 +30,18 @@ margin: 0 auto;
 main section{
     text-align: center;
 }
+main section img{
+box-sizing: border-box;
+}
 #background{
     height: 725px;
 }
 body{
     background-color: #fcfbfb;
+    font-size: 22px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header{
 background-color: #8ab9b5;
@@ -34,6 +51,7 @@ nav a{
     background-color: #e5d0e3;
     color: #33658a;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
 background-color: #33658a;
@@ -44,17 +62,34 @@ text-decoration: none;
     color: #33658a;
     background-color: #e5d0e3;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #33658a;
     color: #e5d0e3;
     text-decoration: none;
 }
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: solid black;
+    border-width: 10px;
+}
 #background{
 background-color: #8ab9b5;
 }
 .home-title{
     color: #33658a;
+    font-size: 2em;
+    font-family: "Permanent Marker";
+    margin-top: 10px;
+}
+h2{
+    margin: 0;
 }
 h4{
     color: #33658a;
@@ -64,6 +99,8 @@ h4{
 }
 footer{
     background-color: #8ab9b5;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p{
     font-size: 1.2em;
@@ -71,6 +108,9 @@ footer p{
 footer a{
 color: #33658a;
 text-decoration: none;
+}
+footer .social img{
+    padding-top: 15px;
 }
 footer a:hover{
 color: #e5d0e3;
@@ -80,5 +120,5 @@ text-decoration: none;
     width: 80px;
 }
 .icon{
-
+padding-top: 10px;
 }
