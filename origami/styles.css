@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Source+Sans+Pro&display=swap');
+.content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#logo{ 
+    width: 150px;
+    border: solid #FFFD82;
+    border-width: 5px;
+    border-radius: 100%;
+}
+#logolink{
+    margin: 0;
+    padding: 0;
+    border-radius: 100%;
+    background-color: transparent;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1B998B;
+    font-size: 35px;
+    padding: 20px 0;
+    line-height: 70px;
+}
+nav a{
+    text-align: center;
+    color: #2D3047;
+    text-decoration: none;
+    padding: 20px 10px;
+
+}
+nav a:hover{
+    background-color:  #FFFD82;
+    color: #2D3047;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10%;
+    border-width: 0;
+}
+h1{
+    font-family: 'Permanent Marker';
+    color: #ED217C;
+    text-align: center;
+    font-size: 70px;
+}
+p{
+    text-align: center;
+    color: #2D3047;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 37px;
+}
+.box{
+    display: flex;
+
+}
+img{
+    width: 75%;
+    border: solid black;
+    border-width: 5px;
+    box-shadow: 5px 5px 10px #6f7364;
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    margin: auto;
+    
+
+}
+.display{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: fr 30px fr 30px fr 30px;
+    margin: 50px;
+    justify-self: center;
+}
+.dragon{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.flytrap{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.bird{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.lotus{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.rings{
+    grid-column: 1/2;
+    grid-row: 3/4;
+
+}
+.surfer{
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+}
+.description{
+    text-align: center;
+}
+.imgl{
+    grid-template-columns: 1/2;
+    grid-template-rows: 1/2;
+}
+.imgr{
+    grid-template-columns: 2/3;
+    grid-template-rows: 1/2;
+    margin-top: 20px;
+}
+.pl{
+    grid-template-columns: 1/2;
+    grid-template-rows: 2/3;
+}
+.pr{
+    grid-template-columns: 2/3;
+    grid-template-rows: 2/3;
+    margin-top: 5px;
+}

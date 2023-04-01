@@ -186,6 +186,12 @@ footer a:hover{
 .icon{
     padding-top: 10px;
 }
+.sub-main{
+    color: #33658a;
+    font-size: 2em;
+    font-family: "Permanent Marker";
+    margin-top: 10px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
