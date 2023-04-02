@@ -103,21 +103,9 @@ img{
 .description{
     text-align: center;
 }
-.imgl{
-    grid-template-columns: 1/2;
-    grid-template-rows: 1/2;
-}
 .imgr{
-    grid-template-columns: 2/3;
-    grid-template-rows: 1/2;
     margin-top: 20px;
 }
-.pl{
-    grid-template-columns: 1/2;
-    grid-template-rows: 2/3;
-}
 .pr{
-    grid-template-columns: 2/3;
-    grid-template-rows: 2/3;
     margin-top: 5px;
 }
